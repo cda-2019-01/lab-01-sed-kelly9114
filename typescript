@@ -1,0 +1,186 @@
+Script started on 2019-05-09 22:42:00+0000
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cd[Kat data.csv
+12/03/13;A;1;100,0
+05/12/13;A;1;100,0
+25/02/13;B;2;200,0
+04/04/13;N;1;\N
+21/06/13;\N;;
+13/06/14;A;;N
+12/05/14;C;\N;
+05/09/14;\N;3;150,1
+12/05/14;a;2;\N
+28/02/13;c;\N;\N
+02/08/13;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ sed -e 's#7[K/8[K([0-9][0-9]\)//([0-9][0-9]\)//([0-9][0-9]\)/[C[1P([0-9][0-9]\)//([0-9][0-9]\)//([0-9][0-9]\)/\([0-9][0-9]\)//([0-9][0-9]\)//([0-9][0-9]\)/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P([0-9][0-9]\)//([0-9][0-9]\)/\([0-9][0-9]\)//([0-9][0-9]\)/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P([0-9][0-9]\)/\([0-9][0-9]\)/[C[C[C[C[C[C[C[C[C[C[C[C[C[C#20\3-\2-\1#g' data  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. csv>[K > out.1
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.1
+12/03/13;A;1;100,0
+05/12/13;A;1;100,0
+25/02/13;B;2;200,0
+04/04/13;N;1;\N
+21/06/13;\N;;
+13/06/14;A;;N
+12/05/14;C;\N;
+05/09/14;\N;3;150,1
+12/05/14;a;2;\N
+28/02/13;c;\N;\N
+02/08/13;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ 
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ 
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ 
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ 
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ 
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ 
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ 
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ 
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ [K]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.1[77@sed -e 's#\([0-9][0-9]\)/\([0-9][0-9]\)/\([0-9][0-9]\)/#20\3-\2-\1#g' data.csv >[C[C[C[C[C[C[1P
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.1
+2013-03-12;A;1;100,0
+2013-12-05;A;1;100,0
+2013-02-25;B;2;200,0
+2013-04-04;N;1;\N
+2013-06-21;\N;;
+2014-06-13;A;;N
+2014-05-12;C;\N;
+2014-09-05;\N;3;150,1
+2014-05-12;a;2;\N
+2013-02-28;c;\N;\N
+2013-08-02;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ sed '4[K[Ke[K-e '4 s/N/\\n[KN/[1PN/\\N/#N/\\N/[C[C[1P\\N/#\\N/[1P\\N/[1P\\N/m\\N/[1P\\N/m\\N/[1P\\N/n\\N/#\\N/[C[1PN/[C[C[C[K[1@,[1P[C, s#n#\N6 s#n#\N[C[C[C[C[C[C[C"[K' c[Kout.1>[K > out.1[K2
+sed: -e expression #1, char 10: unterminated `s' command
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ sed -e '4,6 s#n#\N' out.1 > out.2[1P[1P
+sed: -e expression #1, char 10: unterminated `s' command
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ sed  '4,6 s#n#\N' out.1 > out.2[1P[1P
+sed: -e expression #1, char 8: unterminated `s' command
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ sed  '4 s#n#\N' out.1 > out.2[1P[1@N[1@,[1@6[C[C[1@ [1@-[1@e[C[1P
+sed: -e expression #1, char 10: unterminated `s' command
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ sed -e '4,6 s#N#\N' out.1 > out.2[1P[1P[1P
+sed: -e expression #1, char 10: unterminated `s' command
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ sed '4,6 s#N#\N' out.1 > out.2[1P[1P
+sed: -e expression #1, char 8: unterminated `s' command
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ sed '4 s#N#\N' out.1 > out.2[2@,6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@#[C[1@ [1@-[1@e
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2
+2013-03-12;A;1;100,0
+2013-12-05;A;1;100,0
+2013-02-25;B;2;200,0
+2013-04-04;N;1;\N
+2013-06-21;\N;;
+2014-06-13;A;;N
+2014-05-12;C;\N;
+2014-09-05;\N;3;150,1
+2014-05-12;a;2;\N
+2013-02-28;c;\N;\N
+2013-08-02;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2[25@sed -e '4,6 s#N#\N#' out.1 >[C[C[C[C[C[C[1P[1P[1P
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2
+2013-03-12;A;1;100,0
+2013-12-05;A;1;100,0
+2013-02-25;B;2;200,0
+2013-04-04;N;1;\N
+2013-06-21;\N;;
+2014-06-13;A;;N
+2014-05-12;C;\N;
+2014-09-05;\N;3;150,1
+2014-05-12;a;2;\N
+2013-02-28;c;\N;\N
+2013-08-02;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2[22@sed '4,6 s#N#\N#' out.1 >[C[C[C[C[C[C[C[C[1P[C[1P
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2
+2013-03-12;A;1;100,0
+2013-12-05;A;1;100,0
+2013-02-25;B;2;200,0
+2013-04-04;N;1;\N
+2013-06-21;\N;;
+2014-06-13;A;;N
+2014-05-12;C;\N;
+2014-09-05;\N;3;150,1
+2014-05-12;a;2;\N
+2013-02-28;c;\N;\N
+2013-08-02;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2[20@sed '4 s#N#\N#' out.1 >[C[C[C[C[C[C[1@\[1@,[1@6[C[1@ [1@-[1@e
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2
+2013-03-12;A;1;100,0
+2013-12-05;A;1;100,0
+2013-02-25;B;2;200,0
+2013-04-04;\N;1;\N
+2013-06-21;\\N;;
+2014-06-13;A;;\N
+2014-05-12;C;\N;
+2014-09-05;\N;3;150,1
+2014-05-12;a;2;\N
+2013-02-28;c;\N;\N
+2013-08-02;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2[26@sed -e '4,6 s#N#\\N#' out.1 >[C[C[C[C[C[C[1P[1@ 
+sed: -e expression #1, char 3: unknown command: `6'
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ sed -e '4 6 s#N#\\N#' out.1 > out.2[1P[1@;
+sed: -e expression #1, char 2: unknown command: `;'
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ sed -e '4;6 s#N#\\N#' out.1 > out.2<<<<<<<<<<<<<[K[K[K[K[K[K[K[K[K[K[K[K[K[1P[C[1P
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2
+2013-03-12;A;1;100,0
+2013-12-05;A;1;100,0
+2013-02-25;B;2;200,0
+2013-04-04;\N;1;\N
+2013-06-21;\N;;
+2014-06-13;A;;N
+2014-05-12;C;\N;
+2014-09-05;\N;3;150,1
+2014-05-12;a;2;\N
+2013-02-28;c;\N;\N
+2013-08-02;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2[24@sed -e '4 s#N#\\N#' out.1 >[C[C[C[C[C[C[1P[1@6
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ a[Kcat pi[K[Kput.2
+cat: put.2: No such file or directory
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2
+2013-03-12;A;1;100,0
+2013-12-05;A;1;100,0
+2013-02-25;B;2;200,0
+2013-04-04;N;1;\N
+2013-06-21;\N;;
+2014-06-13;A;;\N
+2014-05-12;C;\N;
+2014-09-05;\N;3;150,1
+2014-05-12;a;2;\N
+2013-02-28;c;\N;\N
+2013-08-02;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2put.2sed -e '6 s#N#\\N#' out.1 > out.2[C[1P[1@2[C[C[C[C[C[C[C[C[K2[K3
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out-3
+cat: out-3: No such file or directory
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.3
+2013-03-12;A;1;100,0
+2013-12-05;A;1;100,0
+2013-02-25;B;2;200,0
+2013-04-04;N;1;\N
+2013-06-21;\N;;
+2014-06-13;A;;\\N
+2014-05-12;C;\N;
+2014-09-05;\N;3;150,1
+2014-05-12;a;2;\N
+2013-02-28;c;\N;\N
+2013-08-02;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.3-3sed -e '6 s#N#\\N#' out.2 > out.3cat out.2[Kput.2sed -e '6 s#N#\\N#' out.1 > out.2cat out.2[K[24@sed -e '4 s#N#\\N#' out.1 >[C[C[C[C[C[C
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2
+2013-03-12;A;1;100,0
+2013-12-05;A;1;100,0
+2013-02-25;B;2;200,0
+2013-04-04;\N;1;\N
+2013-06-21;\N;;
+2014-06-13;A;;N
+2014-05-12;C;\N;
+2014-09-05;\N;3;150,1
+2014-05-12;a;2;\N
+2013-02-28;c;\N;\N
+2013-08-02;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.2[24@sed -e '4 s#N#\\N#' out.1 >[C[C[C[C[C[C[1P[1@6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@2[C[C[C[C[C[C[C[C[K3
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-bionic[00m:[01;34m/vagrant/laboratorio1[00m$ cat out.3
+2013-03-12;A;1;100,0
+2013-12-05;A;1;100,0
+2013-02-25;B;2;200,0
+2013-04-04;\N;1;\N
+2013-06-21;\N;;
+2014-06-13;A;;\N
+2014-05-12;C;\N;
+2014-09-05;\N;3;150,1
+2014-05-12;a;2;\N
+2013-02-28;c;\N;\N
+2013-08-02;A;2;100;0
+]0;vagrant@ubuntu-bionic: /vagrant/laboratorio1[01;32mvagrant@ubuntu-b
